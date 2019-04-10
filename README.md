@@ -69,7 +69,6 @@ This is a seed project for the Matrix Professional Services AppDev team to use w
 ## Development server
 
 Run `npm run start` to run the app locally.
-Alternatively, run `npm run start:mock` to run the app locally using mock data.
 Navigate to `http://localhost:4200/` in your browser. Note, the app should automatically reload if you change any of the source files.
 
 
