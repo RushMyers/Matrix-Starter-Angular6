@@ -14,7 +14,7 @@
     "bump:major": "npm version major",
     "bump:minor": "npm version minor",
     "bump:patch": "npm version patch",
-    "test": "ng test --code-coverage",
+    "test": "ng test --watch=false --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lint_test": "npm run lint && npm run test"

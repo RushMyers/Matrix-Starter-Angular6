@@ -1,7 +1,5 @@
 import { NgxLoggerLevel } from 'ngx-logger';
+import * as Constants from '../app/constants/constants';
+import { Environment } from '../app/models/environment';
 
-export const environment = {
-    production: false,
-    name: 'qa',
-    logLevel: NgxLoggerLevel.WARN
-};
+export const environment = new Environment('', '', NgxLoggerLevel.WARN, Constants.ENVIRONMENT_VARIABLES.qa, false);
