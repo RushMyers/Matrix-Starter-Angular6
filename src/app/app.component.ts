@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   constructor(private logger: NGXLogger) { }
 
   ngOnInit() {
-    this.logger.warn('log message');
+    this.logger.warn('current environment: ', this.env);
   }
 }
