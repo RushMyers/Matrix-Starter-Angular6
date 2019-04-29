@@ -4,7 +4,11 @@
 import { NgxLoggerLevel } from 'ngx-logger';
 import { Environment } from '../app/models/environment';
 
-export const environment = new Environment('', '', NgxLoggerLevel.WARN, 'default', false);
+export const environment = new Environment(
+    'default',
+    false,
+    NgxLoggerLevel.WARN
+);
 
 /*
  * For easier debugging in development mode, you can import the following file
