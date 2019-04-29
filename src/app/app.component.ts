@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
 
   constructor(private logger: NGXLogger) { }
 
-  ngOnInit() {
+  public ngOnInit() {
     this.logger.warn('current environment: ', this.env);
   }
 }
