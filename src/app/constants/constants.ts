@@ -1,5 +1,5 @@
 export const
-    ENVIRONMENT_VARIABLES = {
+    ENVIRONMENT = {
         dev: 'dev',
         prod: 'prod',
         qa: 'qa'
